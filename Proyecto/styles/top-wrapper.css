@@ -1,0 +1,135 @@
+.top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black ;
+    color: white;
+    height: 80px;
+    padding-left: 10px;
+}
+
+.top-wrapper > .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+}
+
+.top-wrapper > .nav-wrapper > .top-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.top-wrapper > .nav-wrapper > .top-logo > .logo-wrapper > img {
+    height: 100px;
+    width: auto;
+    margin-bottom: 18px;
+    filter: invert();
+}
+
+.top-wrapper > .nav-wrapper > .links-wrapper > .EXPLORE {
+    color: yellow;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.top-wrapper > .nav-wrapper > .links-wrapper {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 1fr;
+    width: 280px;
+}
+
+.top-wrapper > .nav-wrapper > .links-wrapper > .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-wrapper > .nav-wrapper > .links-wrapper > .links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.1em;
+    margin-right: -30px;
+    
+}
+
+.top-wrapper > .nav-wrapper >.spark-wrapper {
+    color: grey;
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    width: 5px;
+    margin-left: -10px;
+}
+
+.top-wrapper > .nav-wrapper > .spark-wrapper >.spark-down-arrow i{
+    padding-left: 15px;
+    font-size: 1em;
+    
+}
+
+.top-wrapper > .buttons-wrapper {
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top-wrapper > .buttons-wrapper > .create-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(55, 56, 60);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.1em;
+}
+
+.top-wrapper > .buttons-wrapper > .create-button > .button-chevron {
+    margin-left: 10px;
+    color: rgb(55, 233, 55);  
+    font-size: 1.2em;
+}
+
+.top-wrapper > .buttons-wrapper > .search-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(55, 56, 60);
+    font-size: 2.5em;
+    background-color: transparent;
+}
+
+.top-wrapper > .buttons-wrapper > .LogIn-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 90px;
+    background-color: rgb(55, 56, 60);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.1em;
+}
+
+.top-wrapper > .buttons-wrapper > .SignUp-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 90px;
+    background-color:rgb(55, 56, 60);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.1em;
+}
